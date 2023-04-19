@@ -1,0 +1,14 @@
+.p404 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+	gap: 30px;
+	& > p {
+		font-size: 2rem;
+	}
+	& > .image {
+		width: 50%;
+	}
+}
