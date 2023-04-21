@@ -1,5 +1,5 @@
 import { FC, PropsWithChildren } from 'react'
-import Header from './header/Header'
+import Header from './Header/Header'
 import Head from 'next/head'
 
 interface Props {
@@ -7,7 +7,7 @@ interface Props {
 	description?: string
 }
 
-const getTitle = (title: string) => `${title} | Car Catalog`
+const getTitle = (title: string) => `${title} | Products Catalog`
 
 const Layout: FC<PropsWithChildren<Props>> = ({
 	children,

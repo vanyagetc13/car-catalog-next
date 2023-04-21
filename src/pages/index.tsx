@@ -1,12 +1,15 @@
-import styles from '@/styles/Home.module.scss'
+import { NextPage } from 'next'
 import Layout from './../components/layout/Layout'
+import Home from '@/components/screens/Home/Home'
+import Loader from '@/components/UI/Loader/Loader'
 
-export default function Home() {
+const indexPage: NextPage = () => {
 	return (
-		<>
-			<Layout title='Home'>
-				<div>Home Page</div>
-			</Layout>
-		</>
+		<Layout title='Home'>
+			<Home />
+			<Loader />
+		</Layout>
 	)
 }
+
+export default indexPage

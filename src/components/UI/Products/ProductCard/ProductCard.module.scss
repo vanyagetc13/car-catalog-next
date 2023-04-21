@@ -1,0 +1,32 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	gap: 5px;
+	padding: 10px;
+	border: 1px solid black;
+	div {
+		width: 100%;
+	}
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.readmore {
+	margin: 8px 0;
+
+	&:hover {
+		color: var(--active-clr);
+	}
+}
+
+.image {
+	position: relative;
+	height: 200px;
+	margin-bottom: 5px;
+}

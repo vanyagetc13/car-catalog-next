@@ -1,4 +1,4 @@
-import { ILink } from '@/types/Link.interface'
+import { ILink } from '@/interfaces/Link.interface'
 
 export const links: ILink[] = [
 	{
@@ -13,7 +13,12 @@ export const links: ILink[] = [
 	},
 	{
 		id: 3,
-		path: '/cars',
-		name: 'Cars',
+		path: '/products',
+		name: 'Products',
+	},
+	{
+		id: 4,
+		path: '/contacts',
+		name: 'Contacts',
 	},
 ]
